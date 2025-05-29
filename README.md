@@ -1,33 +1,33 @@
-<<<<<<< HEAD
 # HotelVision
+
 HotelVision uses Azure OpenAI to automatically generate clear, concise, and engaging descriptions of hotel room images. Designed to support booking platforms, accessibility teams, and content managers, it helps turn visuals into professional listings by detecting visible features like room type, layout, colors, furniture, and more—within seconds.
-=======
+
 # 🏨 AI Hotel Image Description Generator
 
 This project uses **Azure OpenAI** to generate clear, concise, and optionally promotional descriptions for hotel images. It helps hotel platforms automatically describe rooms, amenities, or areas for listings, accessibility tools, or customer insights.
 
 ## ✨ Features
 
-* Upload or provide URLs for images of hotel rooms, bathrooms, dining areas, etc.
-* Generates **1–2 sentence** descriptions using AI
-* Option to include **promotional language** (e.g., "spacious", "elegant")
-* Describes only what is **visibly present**: furniture, lighting, layout, colors
-* Returns a warning if the image is **unsuitable for listings**
+- Upload or provide URLs for images of hotel rooms, bathrooms, dining areas, etc.
+- Generates **1–2 sentence** descriptions using AI
+- Option to include **promotional language** (e.g., "spacious", "elegant")
+- Describes only what is **visibly present**: furniture, lighting, layout, colors
+- Returns a warning if the image is **unsuitable for listings**
 
 ## 📊 Tech Stack
 
-* **PHP** backend
-* **Azure OpenAI API** for vision and language processing
-* **HTML/CSS** frontend (extendable)
-* Optional support for accessibility and localization
+- **PHP** backend
+- **Azure OpenAI API** for vision and language processing
+- **HTML/CSS** frontend (extendable)
+- Optional support for accessibility and localization
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-hotel-image-description.git
-   cd ai-hotel-image-description
+   git clone https://github.com/IsmlCg/HotelVision.git
+   cd HotelVision
    ```
 
 2. Configure your Azure credentials in `config.php`:
@@ -47,19 +47,6 @@ This project uses **Azure OpenAI** to generate clear, concise, and optionally pr
 
 ## 📃 Example Output
 
-> *"The room is spacious with a large bed, warm-toned bedding, and soft ambient lighting. A wooden desk and window with curtains offer a cozy, elegant feel."*
+> _"The room is spacious with a large bed, warm-toned bedding, and soft ambient lighting. A wooden desk and window with curtains offer a cozy, elegant feel."_
 
-> *If image content is not relevant:* *"Not suitable for listing."*
-
-## 📅 Roadmap
-
-*
-
-## 📄 License
-
-MIT License
-
----
-
-Made with ❤️ for hotel businesses by \[Your Name]
->>>>>>> icg-1
+> _If image content is not relevant:_ _"Not suitable for listing."_
